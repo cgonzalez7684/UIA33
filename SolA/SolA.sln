@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCalc", "ApiCalc\ApiCalc.csproj", "{0522B289-948D-42EC-BE92-233C5E3C7A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cliente", "Cliente\Cliente.csproj", "{4424F25E-CCE1-45D3-9254-6A2C560D6249}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0522B289-948D-42EC-BE92-233C5E3C7A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0522B289-948D-42EC-BE92-233C5E3C7A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0522B289-948D-42EC-BE92-233C5E3C7A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0522B289-948D-42EC-BE92-233C5E3C7A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4424F25E-CCE1-45D3-9254-6A2C560D6249}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4424F25E-CCE1-45D3-9254-6A2C560D6249}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4424F25E-CCE1-45D3-9254-6A2C560D6249}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4424F25E-CCE1-45D3-9254-6A2C560D6249}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DB881FF-837D-4F71-8F0B-198D0B98E5AB}
+	EndGlobalSection
+EndGlobal

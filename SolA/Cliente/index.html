@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+
+
+    <button id="btnCargar">Oprimir</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+      
+
+        function llamarApi() {
+            $.ajax({
+                url: 'http://localhost:50321/api/producto/ObtenerObjeto',
+                method: 'POST',
+                //contentType: "application/json",
+                data: {IdProducto:'B100',nomProducto:'Nintendo',montoProducto:200},
+                dataType: 'JSON',                
+                success: function (d) {
+                    console.log(d);
+                },
+                error: function (a, b, c) {
+                    console.log('error: ' + b + 'texto: '+ c);
+                }
+
+            });
+        }
+
+        $(document).ready(() => {
+
+            $("#btnCargar").click(() => {
+                llamarApi();
+            })
+
+        })
+
+    </script>
+
+</body>
+</html>
